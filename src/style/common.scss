@@ -1,0 +1,43 @@
+.page-content{
+  width: 1200px;
+  margin: 80px auto 0;
+}
+.page-content-fluid {
+  width: 100%;
+  padding: 40px;
+  height:540px;
+  background-color: #f7f7f7;
+}
+.card-box-normal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-box-normal{
+  padding: 10px;
+  border: 2px solid #f1f1f1;
+}
+.imglist{
+  width:100%;
+  height:auto;
+}
+img{
+  // width:100%;
+  // height:auto;
+}
+.one .tab-card-three{
+  &:nth-child(4){
+    padding-top:12px;
+    
+  }
+}
+.two .tab-card-three{
+  &:nth-child(3){
+    padding-top:20px;
+    
+  }
+  &:nth-child(4){
+    padding-top:10px;
+  }
+}
